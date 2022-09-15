@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kotak Adios</title>
+    <style>
+        body {
+            background-color: #190a05;
+        }
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            padding-top: 90px;
+            transform: skewY(-5deg);
+            text-shadow: 6px 6px #870000,
+            12px 12px rgb(204, 204, 0);
+        }
+
+        .rectangle {
+            width: 400px;
+            height: 200px;
+            background-color: #870000;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            border-radius: 5px;
+            transform: translate(-50%, -50%);
+        }
+
+        .circle1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background-color: #190a05;
+        }
+
+        .circle2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background-color: #870000;
+        }
+
+        .circle3 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: rgb(204, 204, 0);
+        }
+
+        @media screen and (min-width: 576px) {
+            h1 {
+                padding-top: 30px;
+                font-size: 3em;
+            }
+            .rectangle {
+                width: 500px;
+                height: 250px;
+            }
+
+            .circle1 {
+                width: 400px;
+                height: 400px;
+            }
+
+            .circle2 {
+                width: 250px;
+                height: 250px;
+            }
+
+            .circle3 {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>War On Drugs</h1>
+    <div class="rectangle"></div>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    <div class="circle3"></div>
+</body>
+
+</html>
